@@ -1,0 +1,29 @@
+{
+  "name": "Station",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": " nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thuansilva/Station.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thuansilva/Station/issues"
+  },
+  "homepage": "https://github.com/thuansilva/Station#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.6.5",
+    "require-dir": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
