@@ -1,11 +1,13 @@
 const express = require("express");
+const cors = require("cors");
 const mongoose = require("mongoose");
 const requireDir = require("require-dir");
 //inicando o App
 const app = express();
-app.use(express.json());
+app.use(express.json()); //trabalha com resposta do tipo json
+app.use(cors()); // comunicação entre servidoeres e dominios diferentes
 
-//Inicnado o BD
+//Iniciando o BD
 mongoose.connect("mongodb://localhost:27017/nodeapi", {
   useNewUrlParser: true
 });
